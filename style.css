@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
+  font-family: 'Be Vietnam Pro';
   font-size: 14px;
 }
 .hero {
@@ -16,6 +16,8 @@ body {
 }
 a {
   text-decoration: none;
+  color:  rgb(5, 117, 182);
+  font-weight: 400;
 }
 .faq-1 {
   width: 80vw;
@@ -46,21 +48,22 @@ li {
   line-height: 1.5rem;
 }
 
+
 @media screen and (min-width: 1024px) {
   .hero {
-    width: 70vw;
+    width: 60vw;
     margin: 0px auto;
     font-size: 16px;
   }
   .section-head {
-    width: 70vw;
+    width: 60vw;
     margin-bottom: 5vh;
   }
   .faq-1,
   .faq-2 {
-    width: 70vw;
+    width: 60vw;
   }
   hr {
-    width: 70vw;
+    width: 60vw;
   }
 }
